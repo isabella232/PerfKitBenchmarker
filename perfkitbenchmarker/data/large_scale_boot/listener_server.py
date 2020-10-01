@@ -27,6 +27,7 @@ then record the system time in nanoseconds.
 """
 
 import functools
+from http import server
 import logging
 import multiprocessing
 import os
@@ -34,7 +35,6 @@ import subprocess
 import sys
 import threading
 import time
-from http import server
 
 
 # Amount of time in seconds to attempt calling a client VM if VM calling in.
